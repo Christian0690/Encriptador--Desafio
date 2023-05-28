@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/adaa8f99f8.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="Imagenes/Logo.png" alt="">
+        </h1>
+    </header>
+    <section class="areaEncriptado">
+        <div class="texto">
+            <textarea autofocus name="" id="texto" cols="22" rows="5" placeholder="Ingrese el texto aqui"></textarea>
+        </div>
+
+        <div class="buttonsInfo">
+            <div class="info">
+                <p><i class="fa-solid fa-circle-exclamation"></i> usar letras minusculas y sin acento.</p>
+            </div>
+            <div class="buttons">
+                <div>
+                    <input type="submit" id="encriptar" value="Encriptar" onclick="encriptarTexto()">
+                </div>
+                <div>
+                    <input type="submit" id="desencriptar" value="Desencriptar" onclick="desencriptarTexto()">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="areaResultado">
+        <img src="Imagenes/Muñeco.png" alt="">
+        <h2> Ningún mensaje fue encontrado</h2>
+        <h3>Ingresa el texto que desea encriptar o desencriptar.</h3>
+    </section>
+   
+</body>
+
+</html>
+
